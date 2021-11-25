@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    background: white;
+}
+#container{
+    width: 85%;
+    height: 85%;
+    margin-top: 95px;
+    margin-left: 8%;
+    display: flex;
+    border: groove 5px rgb(177, 176, 176);
+}
+#leftSide{
+    width: 45%;
+}
+#rightSide{
+    width: 55%;
+    height: 100%;
+    background: #fff;
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+.titulo{
+    width: 85%;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 13px;
+}
+.parrafo{
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: 18px;
+}
+.pie{
+    width: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.pieLeft{
+    width: 50%;
+    display: flex;
+}
+#imagenPie{
+    width: 25%;
+    
+}
+#perfil{
+    width: 100%;
+    border-radius: 80px;
+}
+#descripcion{
+    height: 100%;
+    width: 80%;
+    margin-top: 4%;
+    margin-left: 10%;    
+}
+.pieRight{
+    margin-top: 5%;
+    width: 5%;
+    height: 3%;
+}
+.share{
+    width: 100%;
+    height: 100%;
+}
